@@ -1,6 +1,6 @@
 # Docs
 
-- Chinese: The Chinese docs
-  - [组件](/docs/cn/components): 一些内置组件
+- yisbyhif: The Chinese docs
+  - [Advanced Data Visualization Techniques](/docs/cn/components): A deep dive into advanced data visualization using React components inside Markdown.
 - English: The English docs
-  - [组件](/docs/en/components): 一些内置组件
+  - [Advanced Data Visualization Techniques](/docs/en/components): A deep dive into advanced data visualization using React components inside Markdown.
