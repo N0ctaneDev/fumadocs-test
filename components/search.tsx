@@ -9,14 +9,10 @@ import {
   SearchDialogList,
   SearchDialogOverlay,
   type SharedProps,
-  SearchDialogFooter,
-  TagsList,
-  TagsListItem,
 } from 'fumadocs-ui/components/dialog/search';
 import { useDocsSearch } from 'fumadocs-core/search/client';
 import { create } from '@orama/orama';
 import { useI18n } from 'fumadocs-ui/contexts/i18n';
-import { useState } from 'react';
 
 function initOrama() {
   return create({
@@ -27,12 +23,10 @@ function initOrama() {
 }
 
 export default function DefaultSearchDialog(props: SharedProps) {
-  const [tag, setTag] = useState<string | undefined>();
   const { locale } = useI18n(); // (optional) for i18n
   const { search, setSearch, query } = useDocsSearch({
     type: 'static',
     initOrama,
-    tag,
     locale,
   });
 
@@ -46,11 +40,6 @@ export default function DefaultSearchDialog(props: SharedProps) {
           <SearchDialogClose />
         </SearchDialogHeader>
         <SearchDialogList items={query.data !== 'empty' ? query.data : null} />
-        <SearchDialogFooter className="flex flex-row">
-          <TagsList tag={tag} onTagChange={setTag}>
-            <TagsListItem value="my-value">My Value</TagsListItem>
-          </TagsList>
-        </SearchDialogFooter>
       </SearchDialogContent>
     </SearchDialog>
   );
