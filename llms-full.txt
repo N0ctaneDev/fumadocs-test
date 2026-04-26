@@ -1,4 +1,4 @@
-# Hello World (/docs/test/jrw)
+# Hello World (/docs)
 
 
 
@@ -13,13 +13,17 @@ Welcome to the docs! You can start writing documents in `/content/docs`.
 </Cards>
 
 
-# Hello World (/docs/test%20copy/jkwjk)
+# Components (/docs/test)
 
 
 
-Welcome to the docs! You can start writing documents in `/content/docs`.
+## Code Block [#code-block]
 
-## What is Next? [#what-is-next]
+```js
+console.log('Hello World');
+```
+
+## Cards [#cards]
 
 <Cards>
   <Card title="Learn more about Next.js" href="https://nextjs.org/docs" />
