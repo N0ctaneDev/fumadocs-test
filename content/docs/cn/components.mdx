@@ -5,7 +5,6 @@ category: "Developer Tools"
 lastUpdated: "2024-05-24"
 ---
 
-import { ApiStatus, CodePlayground, Warning } from './components/docs';
 
 # API Reference: System Core
 
@@ -33,8 +32,6 @@ Content-Type: application/json
 ## Interactive Endpoint Tester
 
 Use the component below to simulate a request to our health check endpoint.
-
-<ApiStatus endpoint="https://core-engine.io" />
 
 ### Response Schema
 
@@ -71,11 +68,6 @@ const fetchData = async (depth = 3) => {
 ### Dynamic Code Sandboxing
 
 You can modify the code below to test our SDK logic in real-time.
-
-<CodePlayground 
-  initialCode="const engine = new CoreEngine({ debug: true });\nengine.boot();"
-  language="javascript"
-/>
 
 ---
 
