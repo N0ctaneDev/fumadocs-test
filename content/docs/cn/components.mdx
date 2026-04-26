@@ -22,29 +22,11 @@ The infrastructure is built on a modular architecture to allow for regional cust
 ### Software Layer
 The core logic is written in C++ and Python. Below is a snippet of the handshake protocol:
 
-```python
-import hashlib
-
-def generate_handshake(node_id, secret_key):
-    """Generates a secure handshake for peer verification."""
-    payload = f"{node_id}-{secret_key}".encode('utf-8')
-    return hashlib.sha256(payload).hexdigest()
-
-# Example usage
-print(generate_handshake("Node-Alpha", "7h3-qu1ck-br0wn-f0x"))
-```
-
 ---
 
 ## 3. Network Topology
 We utilize a mesh network topology to ensure that the failure of a single node does not collapse the entire system.
 
-
-| Node Type | Function | Range | Power Draw |
-| :--- | :--- | :--- | :--- |
-| **Gateway** | Connects mesh to global internet | 5km | High |
-| **Relay** | Passes data between nodes | 2km | Medium |
-| **Leaf** | End-user access point | 500m | Low |
 
 ---
 
