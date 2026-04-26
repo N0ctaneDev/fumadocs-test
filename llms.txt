@@ -1,4 +1,6 @@
 # Docs
 
-- [Hello World](/docs): Your first document
-- [Components](/docs/test): Components
+- test: The English docs
+  - [Hello World](/docs/test/index): Your first document
+- test copy: The English docs
+  - [Hello World](/docs/test%20copy): Your first document
