@@ -5,7 +5,6 @@ export const revalidate = false;
 
 export async function GET(_req: Request, { params }: RouteContext<'/llms.mdx/docs/[[...slug]]'>) {
   const { slug } = await params;
-  // remove the appended "content.md"
   const page = source.getPage(slug?.slice(0, -1));
   if (!page) notFound();
 
@@ -18,6 +17,7 @@ export async function GET(_req: Request, { params }: RouteContext<'/llms.mdx/doc
 
 export function generateStaticParams() {
   return source.getPages().map((page) => ({
+    lang: page.locale,
     slug: getPageMarkdownUrl(page).segments,
   }));
 }

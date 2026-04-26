@@ -7,7 +7,7 @@ const config = {
 
   basePath: '/fumadocs-test',
 
-  output: 'export',
+  output:'export',
   reactStrictMode: true,
 };
 
