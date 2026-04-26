@@ -1,4 +1,6 @@
 # Docs
 
-- [Hello World](/docs): Your first document
-- [Components](/docs/test): Components
+- Chinese: The Chinese docs
+  - [组件](/docs/cn/components): 一些内置组件
+- English: The English docs
+  - [组件](/docs/en/components): 一些内置组件
