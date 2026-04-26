@@ -1,6 +1,6 @@
 # Docs
 
 - test: The English docs
-  - [Hello World](/docs/test/index): Your first document
+  - [Hello World](/docs/test/jrw): Your first document
 - test copy: The English docs
-  - [Hello World](/docs/test%20copy): Your first document
+  - [Hello World](/docs/test%20copy/jkwjk): Your first document
