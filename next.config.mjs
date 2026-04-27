@@ -1,5 +1,5 @@
 import { createMDX } from 'fumadocs-mdx/next';
-import {ghpagesBaseRoute} from './src/lib/shared.js';
+import {ghpagesBaseRoute} from './src/lib/shared';
 
 const withMDX = createMDX();
 
