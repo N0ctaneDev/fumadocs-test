@@ -1,12 +1,12 @@
-export const appName = 'My App';
+export const appName = 'Fumadocs Template';
 export const docsRoute = '/docs';
 export const docsImageRoute = '/og/docs';
 export const docsContentRoute = '/llms.mdx/docs';
 
 // Your actual GitHub info
 export const gitConfig = {
-  user: 'fuma-nama',
-  repo: 'fumadocs',
+  user: 'n0ctanedev',
+  repo: 'fumadocs-test',
   branch: 'main',
 };
 
