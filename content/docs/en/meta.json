@@ -1,7 +1,0 @@
-{
-  "title": "English",
-  "description": "The English docs",
-  "icon": "Globe",
-  "root": true,
-  "pages": ["..."]
-}

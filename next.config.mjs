@@ -1,13 +1,14 @@
 import { createMDX } from 'fumadocs-mdx/next';
+import {ghpagesBaseRoute} from './src/lib/shared.js';
 
 const withMDX = createMDX();
 
 /** @type {import('next').NextConfig} */
 const config = {
 
-  basePath: '/fumadocs-test',
+  basePath: ghpagesBaseRoute || '',
 
-  output:'export',
+  output: 'export',
   reactStrictMode: true,
 };
 
