@@ -10,6 +10,6 @@ export const gitConfig = {
   branch: 'main',
 };
 
-// comment this line if you want to deploy to root, i.e. https://username.github.io/
-// uncomment it if u wanna deploy to https://username.github.io/repo-name/
+// comment 1st line and uncomment 2nd if u wanna deploy to https://username.github.io/repo-name/
+export const ghpagesBaseRoute = ''; 
 // export const ghpagesBaseRoute = `/${gitConfig.repo}`; 
