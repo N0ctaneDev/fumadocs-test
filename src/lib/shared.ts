@@ -11,5 +11,5 @@ export const gitConfig = {
 };
 
 // comment 1st line and uncomment 2nd if u wanna deploy to https://username.github.io/repo-name/
-export const ghpagesBaseRoute = ''; 
-// export const ghpagesBaseRoute = `/${gitConfig.repo}`; 
+// export const ghpagesBaseRoute = ''; 
+export const ghpagesBaseRoute = `/${gitConfig.repo}`; 
